@@ -6,6 +6,7 @@
 #05 2017-09-18 Chongnuo Ji
 #06 2020-08-11 十一元人民币
 #07 2021-09-24 十一元人民币
+#08 2022-07-29 Wei JianXin
 
 ABOUT_TAB_BUILD;版本
 ABOUT_TAB_CREDITS;致谢名单
@@ -54,7 +55,7 @@ DYNPROFILEEDITOR_MOVE_UP;上移
 DYNPROFILEEDITOR_NEW;新建
 DYNPROFILEEDITOR_NEW_RULE;新建动态配置规则
 DYNPROFILEEDITOR_PROFILE;处理配置规则
-EDITWINDOW_TITLE;图片修改
+EDITWINDOW_TITLE;图像修改
 EDIT_OBJECT_TOOLTIP;在预览窗口中展示一个允许你调整本工具的可视窗口
 EDIT_PIPETTE_TOOLTIP;要向曲线添加调整点，点击此按钮，按住Ctrl键并用鼠标左键点击图像预览中你想调整的地方。\n要调整点的位置，按住Ctrl键并用鼠标左键点击图像预览中的对应位置，然后松开Ctrl（除非你希望精调）同时按住鼠标左键，将鼠标向上/下移动以上下调整曲线中的点
 EXIFFILTER_APERTURE;光圈
@@ -101,15 +102,15 @@ EXPORT_BYPASS_SHARPENEDGE;跳过边缘锐化
 EXPORT_BYPASS_SHARPENING;跳过锐化
 EXPORT_BYPASS_SHARPENMICRO;跳过微反差调节
 EXPORT_FASTEXPORTOPTIONS;<b>快速导出选项</b>
-EXPORT_INSTRUCTIONS;快速导出选项提供跳过占用资源和时间的处理步骤的选项，并使用快速导出设定来进行队列处理。\n此方法推荐在优先追求速度，生成低分辨率图片时使用，或是调整尺寸的输出大小适合你想输出的图片，你又不想修改这些照片的后期处理设定时使用。
+EXPORT_INSTRUCTIONS;快速导出选项提供跳过占用资源和时间的处理步骤的选项，并使用快速导出设定来进行队列处理。\n此方法推荐在优先追求速度，生成低分辨率图像时使用，或是调整尺寸的输出大小适合你想输出的图像，你又不想修改这些图像的后期处理设定时使用。
 EXPORT_MAXHEIGHT;最大高度：
 EXPORT_MAXWIDTH;最大宽度：
 EXPORT_PIPELINE;输出流水线									  
 EXPORT_PUTTOQUEUEFAST;  放入快速导出队列
 EXPORT_RAW_DMETHOD;去马赛克算法
-EXPORT_USE_FAST_PIPELINE;专门（对缩放大小的图片应用全部处理）
-EXPORT_USE_FAST_PIPELINE_TIP;使用专门的处理流水线来对图片进行处理，以牺牲质量来换取速度。对图片的缩放会尽早进行，而非在正常流水线中那样在最后进行。这能够大幅提升速度，但是用户可能会在输出的图片中看到杂点和较低的总体质量。
-EXPORT_USE_NORMAL_PIPELINE;标准（跳过某些步骤，并在最后缩放图片）
+EXPORT_USE_FAST_PIPELINE;专门（对缩放大小的图像应用全部处理）
+EXPORT_USE_FAST_PIPELINE_TIP;使用专门的处理流水线来对图像进行处理，以牺牲质量来换取速度。对图像的缩放会尽早进行，而非在正常流水线中那样在最后进行。这能够大幅提升速度，但是用户可能会在输出的图像中看到杂点和较低的总体质量。
+EXPORT_USE_NORMAL_PIPELINE;标准（跳过某些步骤，并在最后缩放图像）
 EXTPROGTARGET_1;raw
 EXTPROGTARGET_2;队列已处理
 FILEBROWSER_APPLYPROFILE;应用配置
@@ -117,7 +118,7 @@ FILEBROWSER_APPLYPROFILE_PARTIAL;部分应用配置
 FILEBROWSER_AUTODARKFRAME;自动暗场
 FILEBROWSER_AUTOFLATFIELD;自动平场
 FILEBROWSER_BROWSEPATHBUTTONHINT;点击以打开路径，刷新文件夹并搜索“查找”框中的关键词
-FILEBROWSER_BROWSEPATHHINT;输入你想前往的路径。\n\n快捷键：\n<b>Ctrl-o</b> 让文本框获得焦点\n<b>Enter</b> / <b>Ctrl-Enter</b> 前往输入的目录\n<b>Esc</b> 清除改动\n<b>Shift-Esc</b> 让文本框失去焦点\n\n路径快捷键：\n<b>~</b>	- 用户的home/文档路径\n<b>!</b>	- 用户的图片路径
+FILEBROWSER_BROWSEPATHHINT;输入你想前往的路径。\n\n快捷键：\n<b>Ctrl-o</b> 让文本框获得焦点\n<b>Enter</b> / <b>Ctrl-Enter</b> 前往输入的目录\n<b>Esc</b> 清除改动\n<b>Shift-Esc</b> 让文本框失去焦点\n\n路径快捷键：\n<b>~</b>	- 用户的home/文档路径\n<b>!</b>	- 用户的图像路径
 FILEBROWSER_CACHE;缓存
 FILEBROWSER_CACHECLEARFROMFULL;清除全部，包括缓存文件
 FILEBROWSER_CACHECLEARFROMPARTIAL;清除全部，不包括缓存文件
@@ -184,27 +185,27 @@ FILEBROWSER_RENAMEDLGLABEL;文件重命名
 FILEBROWSER_RESETDEFAULTPROFILE;还原到默认
 FILEBROWSER_SELECTDARKFRAME;选择暗场…
 FILEBROWSER_SELECTFLATFIELD;选择平场…
-FILEBROWSER_SHOWCOLORLABEL1HINT;显示被标记为红色的照片\n快捷键：<b>Alt-1</b>
-FILEBROWSER_SHOWCOLORLABEL2HINT;显示被标记为黄色的照片\n快捷键：<b>Alt-2</b>
-FILEBROWSER_SHOWCOLORLABEL3HINT;显示被标记为绿色的照片\n快捷键：<b>Alt-3</b>
-FILEBROWSER_SHOWCOLORLABEL4HINT;显示被标记为蓝色的照片\n快捷键：<b>Alt-4</b>
-FILEBROWSER_SHOWCOLORLABEL5HINT;显示被标记为紫色的照片\n快捷键：<b>Alt-5</b>
-FILEBROWSER_SHOWDIRHINT;显示文件夹中所有图片
-FILEBROWSER_SHOWEDITEDHINT;显示已编辑的照片\n快捷键：<b>7</b>
-FILEBROWSER_SHOWEDITEDNOTHINT;显示未编辑的照片\n快捷键：<b>6</b>
+FILEBROWSER_SHOWCOLORLABEL1HINT;显示被标记为红色的图像\n快捷键：<b>Alt-1</b>
+FILEBROWSER_SHOWCOLORLABEL2HINT;显示被标记为黄色的图像\n快捷键：<b>Alt-2</b>
+FILEBROWSER_SHOWCOLORLABEL3HINT;显示被标记为绿色的图像\n快捷键：<b>Alt-3</b>
+FILEBROWSER_SHOWCOLORLABEL4HINT;显示被标记为蓝色的图像\n快捷键：<b>Alt-4</b>
+FILEBROWSER_SHOWCOLORLABEL5HINT;显示被标记为紫色的图像\n快捷键：<b>Alt-5</b>
+FILEBROWSER_SHOWDIRHINT;显示文件夹中所有图像
+FILEBROWSER_SHOWEDITEDHINT;显示已编辑的图像\n快捷键：<b>7</b>
+FILEBROWSER_SHOWEDITEDNOTHINT;显示未编辑的图像\n快捷键：<b>6</b>
 FILEBROWSER_SHOWEXIFINFO;显示Exif信息\n\n快捷键：\n<b>i</b> - 多编辑标签页模式, \n<b>Alt-i</b> - 单编辑标签模式
-FILEBROWSER_SHOWNOTTRASHHINT;仅显示未进入垃圾箱的照片
-FILEBROWSER_SHOWORIGINALHINT;仅显示原图\n\n当多张文件名相同，但扩展名不同的图片存在时，在<i>参数设置-文件浏览器-已知扩展名</i>列表中，扩展名排得更靠上的图片会被当作这些图片的原图。
-FILEBROWSER_SHOWRANK1HINT;显示1星图片
-FILEBROWSER_SHOWRANK2HINT;显示2星图片
-FILEBROWSER_SHOWRANK3HINT;显示3星图片
-FILEBROWSER_SHOWRANK4HINT;显示4星图片
-FILEBROWSER_SHOWRANK5HINT;显示5星图片
-FILEBROWSER_SHOWRECENTLYSAVEDHINT;显示保存的图片\n快捷键：<b>Alt-7</b>
-FILEBROWSER_SHOWRECENTLYSAVEDNOTHINT;显示未保存的图片\n快捷键：<b>Alt-6</b>
+FILEBROWSER_SHOWNOTTRASHHINT;仅显示未进入垃圾箱的图像
+FILEBROWSER_SHOWORIGINALHINT;仅显示原图\n\n当多张文件名相同，但扩展名不同的图像存在时，在<i>参数设置-文件浏览器-已知扩展名</i>列表中，扩展名排得更靠上的图像会被当作这些图像的原图。
+FILEBROWSER_SHOWRANK1HINT;显示1星图像
+FILEBROWSER_SHOWRANK2HINT;显示2星图像
+FILEBROWSER_SHOWRANK3HINT;显示3星图像
+FILEBROWSER_SHOWRANK4HINT;显示4星图像
+FILEBROWSER_SHOWRANK5HINT;显示5星图像
+FILEBROWSER_SHOWRECENTLYSAVEDHINT;显示保存的图像\n快捷键：<b>Alt-7</b>
+FILEBROWSER_SHOWRECENTLYSAVEDNOTHINT;显示未保存的图像\n快捷键：<b>Alt-6</b>
 FILEBROWSER_SHOWTRASHHINT;显示垃圾箱内容
-FILEBROWSER_SHOWUNCOLORHINT;显示没有颜色标记的照片\n快捷键：<b>Alt-0</b>
-FILEBROWSER_SHOWUNRANKHINT;显示未评星图片
+FILEBROWSER_SHOWUNCOLORHINT;显示没有颜色标记的图像\n快捷键：<b>Alt-0</b>
+FILEBROWSER_SHOWUNRANKHINT;显示未评星图像
 FILEBROWSER_THUMBSIZE;缩略图大小
 FILEBROWSER_UNRANK_TOOLTIP;未评级\n快捷键：<b>Shift-0</b>
 FILEBROWSER_ZOOMINHINT;增大缩略图
@@ -214,7 +215,7 @@ FILECHOOSER_FILTER_COLPROF;色彩配置文件
 FILECHOOSER_FILTER_CURVE;曲线文件
 FILECHOOSER_FILTER_LCP;镜头矫正配置文件
 FILECHOOSER_FILTER_PP;处理预设文件
-FILECHOOSER_FILTER_SAME;与当前照片格式相同
+FILECHOOSER_FILTER_SAME;与当前图像格式相同
 FILECHOOSER_FILTER_TIFF;TIFF文件
 GENERAL_ABOUT;关于
 GENERAL_AFTER;处理后
@@ -243,7 +244,7 @@ GENERAL_SAVE;保存
 GENERAL_SLIDER;滑条
 GENERAL_UNCHANGED;（不改变）
 GENERAL_WARNING;警告
-GIMP_PLUGIN_INFO;欢迎使用RawTherapee的GIMP插件！\n当你完成编辑后，关闭RawTherapee主窗口，图片就会被自动导入到GIMP中
+GIMP_PLUGIN_INFO;欢迎使用RawTherapee的GIMP插件！\n当你完成编辑后，关闭RawTherapee主窗口，图像就会被自动导入到GIMP中
 HISTOGRAM_TOOLTIP_B;显示/隐藏 蓝色直方图
 HISTOGRAM_TOOLTIP_BAR;显示/隐藏RGB指示条
 HISTOGRAM_TOOLTIP_CHRO;显示/隐藏色度直方图
@@ -256,7 +257,7 @@ HISTORY_CHANGED;已更改
 HISTORY_CUSTOMCURVE;自定义曲线
 HISTORY_FROMCLIPBOARD;从剪贴板
 HISTORY_LABEL;历史
-HISTORY_MSG_1;图片加载完成
+HISTORY_MSG_1;图像加载完成
 HISTORY_MSG_2;配置加载完成
 HISTORY_MSG_3;配置改变
 HISTORY_MSG_4;历史浏览
@@ -672,10 +673,10 @@ IPTCPANEL_CITY;城市
 IPTCPANEL_COPYHINT;将IPTC设置复制到剪贴板
 IPTCPANEL_COUNTRY;国家
 IPTCPANEL_CREDIT;提供者
-IPTCPANEL_CREDITHINT;图片提供者, 未必是作者
+IPTCPANEL_CREDITHINT;图像提供者, 未必是作者
 IPTCPANEL_DATECREATED;创作日期
 IPTCPANEL_EMBEDDED;内嵌
-IPTCPANEL_EMBEDDEDHINT;将IPTC数据重置为图片内嵌数据
+IPTCPANEL_EMBEDDEDHINT;将IPTC数据重置为图像内嵌数据
 IPTCPANEL_HEADLINE;摘要
 IPTCPANEL_INSTRUCTIONS;指令
 IPTCPANEL_KEYWORDS;关键词
@@ -686,8 +687,8 @@ IPTCPANEL_SOURCE;来源
 IPTCPANEL_TITLE;标题
 MAIN_BUTTON_FULLSCREEN;全屏
 MAIN_BUTTON_PREFERENCES;参数设置
-MAIN_BUTTON_PUTTOQUEUE_TOOLTIP;将当前图片放入处理队列中\n快捷键：<b>Ctrl+b</b>
-MAIN_BUTTON_SAVE;保存图片
+MAIN_BUTTON_PUTTOQUEUE_TOOLTIP;将当前图像放入处理队列中\n快捷键：<b>Ctrl+b</b>
+MAIN_BUTTON_SAVE;保存图像
 MAIN_BUTTON_SAVE_TOOLTIP;保存当前图像\n快捷键：<b>Ctrl+S</b>
 MAIN_BUTTON_SENDTOEDITOR;发送到编辑器
 MAIN_BUTTON_SENDTOEDITOR_TOOLTIP;使用外部工具编辑当前图像\n快捷键：<b>Ctrl+E</b>
@@ -704,7 +705,7 @@ MAIN_FRAME_QUEUE;批处理队列
 MAIN_FRAME_QUEUE_TOOLTIP;处理队列\n快捷键：<b>Ctrl-F3</b>
 MAIN_FRAME_RECENT;最近使用的文件夹 
 MAIN_MSG_ALREADYEXISTS;该文件已存在
-MAIN_MSG_CANNOTLOAD;无法加载图片
+MAIN_MSG_CANNOTLOAD;无法加载图像
 MAIN_MSG_CANNOTSAVE;文件保存中出错
 MAIN_MSG_CANNOTSTARTEDITOR;无法启动编辑器
 MAIN_MSG_CANNOTSTARTEDITOR_SECONDARY;请在“参数设置”中设置正确的路径 
@@ -746,12 +747,12 @@ MAIN_TOOLTIP_HIDEHP;显示/隐藏左面板(包含历史，快捷键：H)
 MAIN_TOOLTIP_INDCLIPPEDH;高光溢出提示
 MAIN_TOOLTIP_INDCLIPPEDS;阴影不足提示
 MAIN_TOOLTIP_PREVIEWB;预览<b>蓝色通道</b>\n快捷键：<b>b</b>
-MAIN_TOOLTIP_PREVIEWFOCUSMASK;预览<b>合焦蒙版</b>\n快捷键：<b>Shift-f</b>\n\n在浅景深，噪点少，放大得大的图片中更加精准\n在噪点多的图像中，把图片缩放到10%-30%以提升检测精准度
+MAIN_TOOLTIP_PREVIEWFOCUSMASK;预览<b>合焦蒙版</b>\n快捷键：<b>Shift-f</b>\n\n在浅景深，噪点少，放大得大的图像中更加精准\n在噪点多的图像中，把图像缩放到10%-30%以提升检测精准度
 MAIN_TOOLTIP_PREVIEWG;预览<b>绿色通道</b>\n快捷键：<b>g</b>
 MAIN_TOOLTIP_PREVIEWL;预览<b>亮度</b>\n快捷键：<b>v</b>\n\n0.299*R + 0.587*G + 0.114*B
 MAIN_TOOLTIP_PREVIEWR;预览<b>红色通道</b>\n快捷键：<b>r</b>
 MAIN_TOOLTIP_PREVIEWSHARPMASK;预览<b>锐化反差蒙版</b>\n快捷键：<b>p</b>
-MAIN_TOOLTIP_QINFO;图片简略信息
+MAIN_TOOLTIP_QINFO;图像简略信息
 MAIN_TOOLTIP_SHOWHIDELP1;显示/隐藏左面板\n快捷键：<b>l</b>
 MAIN_TOOLTIP_SHOWHIDERP1;显示/隐藏右面板\n快捷键：<b>Alt-l</b>
 MAIN_TOOLTIP_SHOWHIDETP1;显示/隐藏上面板\n快捷键：<b>Shift-L</b>
@@ -771,8 +772,8 @@ NAVIGATOR_V;V:
 NAVIGATOR_XY_FULL;宽 = %1, 高 = %2
 NAVIGATOR_XY_NA;x = n/a, y = n/a
 OPTIONS_BUNDLED_MISSING;找不到附带档案"<b>%1</b>"！\n\n程序可能受损。\n\n将使用内部默认值
-OPTIONS_DEFIMG_MISSING;<b>非Raw文件照片</b>的默认档案无法被找到或是没有被设置\n\n请检查你的档案所在的文件夹，它可能已不存在或是受损\n\n现将使用"<b>%1</b>"作为替代
-OPTIONS_DEFRAW_MISSING;<b>Raw照片</b>的默认档案无法被找到或是没有被设置\n\n请检查你的档案所在的文件夹，它可能已不存在或是受损\n\n现将使用"<b>%1</b>"作为替代
+OPTIONS_DEFIMG_MISSING;<b>非Raw文件图像</b>的默认档案无法被找到或是没有被设置\n\n请检查你的档案所在的文件夹，它可能已不存在或是受损\n\n现将使用"<b>%1</b>"作为替代
+OPTIONS_DEFRAW_MISSING;<b>Raw图像</b>的默认档案无法被找到或是没有被设置\n\n请检查你的档案所在的文件夹，它可能已不存在或是受损\n\n现将使用"<b>%1</b>"作为替代
 PARTIALPASTE_ADVANCEDGROUP;高级设置
 PARTIALPASTE_BASICGROUP;基本设置
 PARTIALPASTE_CACORRECTION;色彩矫正
@@ -864,7 +865,7 @@ PREFERENCES_AUTOMONPROFILE;使用操作系统主显示器的色彩档案
 PREFERENCES_AUTOSAVE_TP_OPEN;在退出时保存工具的展开/折叠状态
 PREFERENCES_BATCH_PROCESSING;批处理
 PREFERENCES_BEHADDALL;全“相加”
-PREFERENCES_BEHADDALLHINT;将所有选项设为<b>相加</b>模式。\n批量调整栏的处理参数将在图片当前参数的基础上<b>加减</b>
+PREFERENCES_BEHADDALLHINT;将所有选项设为<b>相加</b>模式。\n批量调整栏的处理参数将在图像当前参数的基础上<b>加减</b>
 PREFERENCES_BEHAVIOR;行为
 PREFERENCES_BEHSETALL;全“设定”
 PREFERENCES_BEHSETALLHINT;将所有选项设为<b>设定</b>模式。\n批量调整栏的处理参数将是<b>绝对值</b>，数值会被显示
@@ -872,7 +873,7 @@ PREFERENCES_CACHECLEAR;清空
 PREFERENCES_CACHECLEAR_ALL;清空所有缓存文件:
 PREFERENCES_CACHECLEAR_ALLBUTPROFILES;清除所有缓存文件，已缓存的后期档案除外：
 PREFERENCES_CACHECLEAR_ONLYPROFILES;仅清除已缓存的后期档案：
-PREFERENCES_CACHECLEAR_SAFETY;仅缓存中的文件会被清除，与原图片保存在一起的后期档案不会受到影响。
+PREFERENCES_CACHECLEAR_SAFETY;仅缓存中的文件会被清除，与原图像保存在一起的后期档案不会受到影响。
 PREFERENCES_CACHEMAXENTRIES;最大缓存数量
 PREFERENCES_CACHEOPTS;缓存选项
 PREFERENCES_CACHETHUMBHEIGHT;最大缩略图高度
@@ -908,7 +909,7 @@ PREFERENCES_DIRECTORIES;目录
 PREFERENCES_DIRHOME;用户文件路径
 PREFERENCES_DIRLAST;上次访问路径
 PREFERENCES_DIROTHER;其他
-PREFERENCES_DIRSELECTDLG;启动时选择图片路径...
+PREFERENCES_DIRSELECTDLG;启动时选择图像路径...
 PREFERENCES_DIRSOFTWARE;软件安装路径
 PREFERENCES_EDITORCMDLINE;自定义命令行
 PREFERENCES_EDITORLAYOUT;编辑器布局
@@ -919,7 +920,7 @@ PREFERENCES_FLATFIELDFOUND;找到
 PREFERENCES_FLATFIELDSDIR;平场图像路径
 PREFERENCES_FLATFIELDSHOTS;张
 PREFERENCES_FLATFIELDTEMPLATES;模板
-PREFERENCES_FORIMAGE;用于图片文件
+PREFERENCES_FORIMAGE;用于图像文件
 PREFERENCES_FORRAW;用于Raw文件
 PREFERENCES_FSTRIP_SAME_THUMB_HEIGHT;令文件浏览器和编辑器的缩略图高度相同
 PREFERENCES_FSTRIP_SAME_THUMB_HEIGHT_HINT;若文件浏览器和编辑器的缩略图大小不同，那么在二者间切换时，生成缩略图的用时就会变长
@@ -928,9 +929,9 @@ PREFERENCES_HISTOGRAMPOSITIONLEFT;将直方图放置在左面板
 PREFERENCES_HISTOGRAM_TOOLTIP;启用后，当前使用的后期配置档案将被用于渲染主直方图和导航栏，不启用则将使用伽马矫正的输出档案进行渲染
 PREFERENCES_HLTHRESHOLD;高光溢出阈值
 PREFERENCES_ICCDIR;ICC配置路径
-PREFERENCES_IMPROCPARAMS;默认图片处理参数
+PREFERENCES_IMPROCPARAMS;默认图像处理参数
 PREFERENCES_INSPECT_LABEL;检视
-PREFERENCES_INSPECT_MAXBUFFERS_LABEL;最大缓存图片数
+PREFERENCES_INSPECT_MAXBUFFERS_LABEL;最大缓存图像数
 PREFERENCES_INTENT_ABSOLUTE;绝对比色
 PREFERENCES_INTENT_PERCEPTUAL;可感知
 PREFERENCES_INTENT_RELATIVE;相对比色
@@ -971,21 +972,21 @@ PREFERENCES_PREVDEMO_FAST;快速
 PREFERENCES_PREVDEMO_LABEL;小于100%缩放查看时使用的去马赛克算法：
 PREFERENCES_PREVDEMO_SIDECAR;与PP3相同
 PREFERENCES_PRINTER;打印机 (软打样)
-PREFERENCES_PROFILEHANDLING;图片处理配置管理
+PREFERENCES_PROFILEHANDLING;图像处理配置管理
 PREFERENCES_PROFILELOADPR;配置文件读取优先级
 PREFERENCES_PROFILEPRCACHE;缓存中的配置文件
-PREFERENCES_PROFILEPRFILE;图片所在目录的配置文件
-PREFERENCES_PROFILESAVEBOTH;将配置文件存放到缓存和输入图片所在位置
+PREFERENCES_PROFILEPRFILE;图像所在目录的配置文件
+PREFERENCES_PROFILESAVEBOTH;将配置文件存放到缓存和输入图像所在位置
 PREFERENCES_PROFILESAVECACHE;将配置文件存放到缓存
-PREFERENCES_PROFILESAVEINPUT;将配置文件与图片并列存放
-PREFERENCES_PROFILESAVELOCATION;将配置文件存放到缓存和输入图片所在目录
+PREFERENCES_PROFILESAVEINPUT;将配置文件与图像并列存放
+PREFERENCES_PROFILESAVELOCATION;将配置文件存放到缓存和输入图像所在目录
 PREFERENCES_PROFILE_NONE;无
 PREFERENCES_PROPERTY;属性
 PREFERENCES_PRTINTENT;渲染意图
 PREFERENCES_PRTPROFILE;色彩配置文件
 PREFERENCES_PSPATH;Adobe Photoshop安装路径
-PREFERENCES_REMEMBERZOOMPAN;记忆图片的缩放和拖动位置
-PREFERENCES_REMEMBERZOOMPAN_TOOLTIP;当打开新图片时，记忆上一张图片放大的百分比和被拖动到的位置。\n\n这个选项仅在使用“单编辑器模式”且“小于100%缩放查看时使用的去马赛克方法”被设为“与PP3相同”时才有效
+PREFERENCES_REMEMBERZOOMPAN;记忆图像的缩放和拖动位置
+PREFERENCES_REMEMBERZOOMPAN_TOOLTIP;当打开新图像时，记忆上一张图像放大的百分比和被拖动到的位置。\n\n这个选项仅在使用“单编辑器模式”且“小于100%缩放查看时使用的去马赛克方法”被设为“与PP3相同”时才有效
 PREFERENCES_SAVE_TP_OPEN_NOW;保存工具的展开/折叠状态
 PREFERENCES_SELECTLANG;选择语言
 PREFERENCES_SERIALIZE_TIFF_READ;TIFF读取设定
@@ -1008,11 +1009,11 @@ PREFERENCES_TAB_BROWSER;文件浏览器
 PREFERENCES_TAB_COLORMGR;色彩管理
 PREFERENCES_TAB_DYNAMICPROFILE;动态预设规则
 PREFERENCES_TAB_GENERAL;通用
-PREFERENCES_TAB_IMPROC;图片处理
+PREFERENCES_TAB_IMPROC;图像处理
 PREFERENCES_TAB_PERFORMANCE;性能
 PREFERENCES_TAB_SOUND;音效
 PREFERENCES_THUMBNAIL_INSPECTOR_JPEG;内嵌JPEG预览
-PREFERENCES_THUMBNAIL_INSPECTOR_MODE;展示的图片
+PREFERENCES_THUMBNAIL_INSPECTOR_MODE;展示的图像
 PREFERENCES_THUMBNAIL_INSPECTOR_RAW;中性Raw渲染图
 PREFERENCES_THUMBNAIL_INSPECTOR_RAW_IF_NO_JPEG_FULLSIZE;若内嵌JPEG为全尺寸，则预览它；否则预览中性Raw
 PREFERENCES_TP_LABEL;工具栏
@@ -1043,13 +1044,13 @@ PROGRESSBAR_GREENEQUIL;绿平衡...
 PROGRESSBAR_HLREC;高光还原...
 PROGRESSBAR_HOTDEADPIXELFILTER;热像素/坏点过滤...
 PROGRESSBAR_LINEDENOISE;线状噪点过滤...
-PROGRESSBAR_LOADING;图片加载中...
+PROGRESSBAR_LOADING;图像加载中...
 PROGRESSBAR_LOADINGTHUMBS;读取缩略图...
 PROGRESSBAR_LOADJPEG;JPEG文件加载中...
 PROGRESSBAR_LOADPNG;PNG文件加载中...
 PROGRESSBAR_LOADTIFF;TIFF文件加载中...
-PROGRESSBAR_NOIMAGES;未找到图片
-PROGRESSBAR_PROCESSING;图片处理中...
+PROGRESSBAR_NOIMAGES;未找到图像
+PROGRESSBAR_PROCESSING;图像处理中...
 PROGRESSBAR_PROCESSING_PROFILESAVED;处理配置档案已保存
 PROGRESSBAR_RAWCACORR;Raw色差矫正...
 PROGRESSBAR_READY;就绪
@@ -1068,7 +1069,7 @@ QUEUE_DESTFILENAME;路径和文件名
 QUEUE_FORMAT_TITLE;文件格式
 QUEUE_LOCATION_FOLDER;保存至文件夹
 QUEUE_LOCATION_TEMPLATE;使用模板
-QUEUE_LOCATION_TEMPLATE_TOOLTIP;根据图片的位置，评级，被置于垃圾桶与否，或是在队列中的位次来决定其被保存的位置。\n\n以这个路径为例：\n<b>/home/tom/photos/2010-10-31/photo1.raw</b>\n下列格式化的字符串意义如下：\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>photo1</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\n<b>%r</b>（在文件名中）会变为图片的评级。若图片无评级，则变为'<i>0</i>'。若图片被置于垃圾箱，则变为'<i>x</i>'。\n\n<b>%s1</b>, ..., <b>%s9</b>会变为照片在队列中的排序位次。"%s"后面所跟的数字规定着文件名的长度，比如使用<b>%s3</b>导出队列中的第一张照片，其将被命名为'<i>001</i>'。\n\n如果你想把图片保存到和原图相同的目录，输入：\n<b>%p1/%f</b>\n\n如果你想把图片保存到原图片所在文件夹的'<i>converted</i>'子文件夹下，输入：\n<b>%p1/converted/%f</b>\n\n如果你想把图片保存到\n'<i>/home/tom/photos/converted/2010-10-31</i>'，输入：\n<b>%p2/converted/%d1/%f</b>
+QUEUE_LOCATION_TEMPLATE_TOOLTIP;根据图像的位置，评级，被置于垃圾桶与否，或是在队列中的位次来决定其被保存的位置。\n\n以这个路径为例：\n<b>/home/tom/photos/2010-10-31/photo1.raw</b>\n下列格式化的字符串意义如下：\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>photo1</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\n<b>%r</b>（在文件名中）会变为图像的评级。若图像无评级，则变为'<i>0</i>'。若图像被置于垃圾箱，则变为'<i>x</i>'。\n\n<b>%s1</b>, ..., <b>%s9</b>会变为图像在队列中的排序位次。"%s"后面所跟的数字规定着文件名的长度，比如使用<b>%s3</b>导出队列中的第一张图像，其将被命名为'<i>001</i>'。\n\n如果你想把图像保存到和原图相同的目录，输入：\n<b>%p1/%f</b>\n\n如果你想把图像保存到原图像所在文件夹的'<i>converted</i>'子文件夹下，输入：\n<b>%p1/converted/%f</b>\n\n如果你想把图像保存到\n'<i>/home/tom/photos/converted/2010-10-31</i>'，输入：\n<b>%p2/converted/%d1/%f</b>
 QUEUE_LOCATION_TITLE;输出位置
 QUEUE_STARTSTOP_TOOLTIP;开始/停止处理队列中的图像\n\n快捷键：<b>Ctrl</b>+<b>s</b>
 SAMPLEFORMAT_0;未知数据格式
@@ -1084,7 +1085,7 @@ SAVEDLG_PUTTOQUEUE;放入队列
 SAVEDLG_PUTTOQUEUEHEAD;放在处理队列首位
 SAVEDLG_PUTTOQUEUETAIL;放在处理队列末位
 SAVEDLG_SAVEIMMEDIATELY;立即保存
-SAVEDLG_SAVESPP;随图片保存处理参数
+SAVEDLG_SAVESPP;随图像保存处理参数
 SAVEDLG_SUBSAMP;二次抽样
 SAVEDLG_SUBSAMP_1;极限压缩
 SAVEDLG_SUBSAMP_2;平衡
@@ -1113,7 +1114,7 @@ TP_BWMIX_FILTER_NONE;无
 TP_BWMIX_FILTER_PURPLE;紫
 TP_BWMIX_FILTER_RED;红
 TP_BWMIX_FILTER_REDYELLOW;红-黄
-TP_BWMIX_FILTER_TOOLTIP;色彩过滤能模拟使用色彩滤片所拍摄出的照片。色彩滤片会减少某个波段的光的传入，因此影响到其亮度，比如：红色滤片会让蓝天变暗。
+TP_BWMIX_FILTER_TOOLTIP;色彩过滤能模拟使用色彩滤片所拍摄出的图像。色彩滤片会减少某个波段的光的传入，因此影响到其亮度，比如：红色滤片会让蓝天变暗。
 TP_BWMIX_FILTER_YELLOW;黄
 TP_BWMIX_GAMMA;伽马矫正 
 TP_BWMIX_GAM_TOOLTIP;矫正红绿蓝三色通道(RGB)伽马
@@ -1259,7 +1260,7 @@ TP_COLORTONING_LUMA;亮度
 TP_COLORTONING_LUMAMODE;保持亮度
 TP_COLORTONING_LUMAMODE_TOOLTIP;启用后，当你改变（红，绿，蓝等）颜色时，每个像素的亮度不变
 TP_COLORTONING_METHOD;方法
-TP_COLORTONING_METHOD_TOOLTIP;L*a*b*混合，RGB滑条和RGB曲线使用插值色彩混合。\n阴影/中间调/高光色彩平衡和饱和度2种颜色使用直接颜色。\n\n使用任意一种色调分离方法时都可以启用黑白工具，来为黑白照片进行色调分离
+TP_COLORTONING_METHOD_TOOLTIP;L*a*b*混合，RGB滑条和RGB曲线使用插值色彩混合。\n阴影/中间调/高光色彩平衡和饱和度2种颜色使用直接颜色。\n\n使用任意一种色调分离方法时都可以启用黑白工具，来为黑白图像进行色调分离
 TP_COLORTONING_MIDTONES;中间调
 TP_COLORTONING_NEUTRAL;重置滑条
 TP_COLORTONING_NEUTRAL_TIP;重置所有数值（阴影，中间调，高光）为默认
@@ -1317,7 +1318,7 @@ TP_DIRPYRDENOISE_CHROMINANCE_FRAME;色度噪点
 TP_DIRPYRDENOISE_CHROMINANCE_MANUAL;手动
 TP_DIRPYRDENOISE_CHROMINANCE_MASTER;色度—主控
 TP_DIRPYRDENOISE_CHROMINANCE_METHOD;方法
-TP_DIRPYRDENOISE_CHROMINANCE_METHODADVANCED_TOOLTIP;手动\n作用于整张图片\n用户手动控制降噪设置\n\n全局自动\n作用于整张图片\n使用9片区域来计算全局的色度噪点去除设定\n\n预览处\n作用于整张图片\n使用当前预览可见的区域来计算全局的色度噪点去除设定
+TP_DIRPYRDENOISE_CHROMINANCE_METHODADVANCED_TOOLTIP;手动\n作用于整张图像\n用户手动控制降噪设置\n\n全局自动\n作用于整张图像\n使用9片区域来计算全局的色度噪点去除设定\n\n预览处\n作用于整张图像\n使用当前预览可见的区域来计算全局的色度噪点去除设定
 TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW;预览处
 TP_DIRPYRDENOISE_CHROMINANCE_PREVIEWRESIDUAL_INFO_TOOLTIP;显示在小波层级之后的，当前预览中的噪点水平。\n\n>300 噪点极多\n100-300 噪点多\n50-100 噪点略多\n<50 噪点极少\n\n一定要注意：该数值在RGB模式与在L*a*b*模式下会有不同。RGB模式下的数值相对更不精准，因为RGB模式无法完全分离亮度和色度
 TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_INFO;预览大小=%1, 中心：Px=%2  Py=%3
@@ -1383,7 +1384,7 @@ TP_EXPOSURE_AUTOLEVELS;自动色阶
 TP_EXPOSURE_AUTOLEVELS_TIP;使用自动色阶来让程序分析图像，调整曝光滑条的数值\n如果有需要的话，启用高光还原
 TP_EXPOSURE_BLACKLEVEL;黑点
 TP_EXPOSURE_BRIGHTNESS;亮度
-TP_EXPOSURE_CLAMPOOG;令超出色域的色彩溢出
+TP_EXPOSURE_CLAMPOOG;剪裁色域外颜色
 TP_EXPOSURE_CLIP;可溢出％
 TP_EXPOSURE_CLIP_TIP;自动色阶功能可以让占总数的多少比例的像素溢出
 TP_EXPOSURE_COMPRHIGHLIGHTS;高光压缩
@@ -1396,7 +1397,7 @@ TP_EXPOSURE_CURVEEDITOR2;色调曲线 2
 TP_EXPOSURE_CURVEEDITOR2_TOOLTIP;请在RawPedia的Exposure > Tone Curve文章中了解如何使用双色调曲线
 TP_EXPOSURE_EXPCOMP;曝光补偿
 TP_EXPOSURE_HISTMATCHING;自适应色调曲线
-TP_EXPOSURE_HISTMATCHING_TOOLTIP;自动调整滑条和曲线（不包括曝光补偿）以使图片贴近于内嵌于Raw的JPEG预览图
+TP_EXPOSURE_HISTMATCHING_TOOLTIP;自动调整滑条和曲线（不包括曝光补偿）以使图像贴近于内嵌于Raw的JPEG预览图
 TP_EXPOSURE_LABEL;曝光
 TP_EXPOSURE_SATURATION;饱和度
 TP_EXPOSURE_TCMODE_FILMLIKE;仿胶片式
@@ -1416,7 +1417,7 @@ TP_FILMNEGATIVE_LABEL;胶片负片
 TP_FILMNEGATIVE_PICK;选择（两个）中灰点
 TP_FILMNEGATIVE_RED;红色比例
 TP_FILMSIMULATION_LABEL;胶片模拟
-TP_FILMSIMULATION_SLOWPARSEDIR;RawTherapee被设置寻找用于胶片模拟工具的Hald CLUT图像，图像所在的文件夹加载时间过长。\n前往参数设置-图片处理-Hald CLUT路径\n以寻找被使用的文件夹是哪个。你应该令该文件夹指向一个只有Hald CLUT图像而没有其他图片的文件夹，而如果你不想用胶片模拟功能，就将它指向一个空文件夹。\n\n阅读RawPedia的Film Simulation词条以获取更多信息。\n\n你现在想取消扫描吗？
+TP_FILMSIMULATION_SLOWPARSEDIR;RawTherapee被设置寻找用于胶片模拟工具的Hald CLUT图像，图像所在的文件夹加载时间过长。\n前往参数设置-图像处理-Hald CLUT路径\n以寻找被使用的文件夹是哪个。你应该令该文件夹指向一个只有Hald CLUT图像而没有其他图像的文件夹，而如果你不想用胶片模拟功能，就将它指向一个空文件夹。\n\n阅读RawPedia的Film Simulation词条以获取更多信息。\n\n你现在想取消扫描吗？
 TP_FILMSIMULATION_STRENGTH;力度
 TP_FILMSIMULATION_ZEROCLUTSFOUND;在参数设置中设定HaldCLUT目录
 TP_FLATFIELD_AUTOSELECT;自动选择
@@ -1507,7 +1508,7 @@ TP_LENSPROFILE_CORRECTION_AUTOMATCH;自动选择
 TP_LENSPROFILE_CORRECTION_LCPFILE;LCP文件
 TP_LENSPROFILE_CORRECTION_MANUAL;手动选择
 TP_LENSPROFILE_LABEL;镜头矫正档案
-TP_LENSPROFILE_LENS_WARNING;警告：制作镜头档案时相机所用的裁切系数比本图片拍摄时\n所使用的裁剪系数更大。矫正结果可能出现错误
+TP_LENSPROFILE_LENS_WARNING;警告：制作镜头档案时相机所用的裁切系数比本图像拍摄时\n所使用的裁剪系数更大。矫正结果可能出现错误
 TP_LENSPROFILE_MODE_HEADER;镜头档案
 TP_LENSPROFILE_USE_CA;色差
 TP_LENSPROFILE_USE_GEOMETRIC;几何畸变
@@ -1552,7 +1553,7 @@ TP_PREPROCESS_LINEDENOISE_DIRECTION_VERTICAL;纵向
 TP_PREPROCESS_NO_FOUND;未检测出
 TP_PREPROCESS_PDAFLINESFILTER;PDAF条纹过滤器
 TP_PRSHARPENING_LABEL;调整大小后加锐
-TP_PRSHARPENING_TOOLTIP;在调整图片大小后加锐图像。仅在选择"Lanczos"算法时可用。\n本工具的效果无法预览。见RawPedia的文章以了解本工具的使用教程
+TP_PRSHARPENING_TOOLTIP;在调整图像大小后加锐图像。仅在选择"Lanczos"算法时可用。\n本工具的效果无法预览。见RawPedia的文章以了解本工具的使用教程
 TP_RAWCACORR_AUTO;自动修正
 TP_RAWCACORR_AUTOIT;迭代
 TP_RAWCACORR_AUTOIT_TOOLTIP;若“自动矫正”被勾选，此设置便可用。\n自动矫正是保守的，也就是说它经常不会去除所有色差。\n要移除全部色差，你可以使用至多迭代五次的色差矫正迭代。\n每次迭代会纠正上个迭代未能修正的色差，代价是需要花费额外的处理时间
@@ -1580,9 +1581,9 @@ TP_RAW_DCBVNG4;DCB+VNG4
 TP_RAW_DMETHOD;方法
 TP_RAW_DMETHOD_PROGRESSBAR;%1 去马赛克中...
 TP_RAW_DMETHOD_PROGRESSBAR_REFINE;去马赛克精细化...
-TP_RAW_DMETHOD_TOOLTIP;注：IGV和LMMSE是专门用于配合降噪工具，在为高ISO图片降噪时不产生迷宫状噪点，色调分离或是褪色所用的。\n像素偏移是为宾得/索尼的像素偏移文件所用的。此算法将使用AMaZE算法来处理非像素偏移文件
+TP_RAW_DMETHOD_TOOLTIP;注：IGV和LMMSE是专门用于配合降噪工具，在为高ISO图像降噪时不产生迷宫状噪点，色调分离或是褪色所用的。\n像素偏移是为宾得/索尼的像素偏移文件所用的。此算法将使用AMaZE算法来处理非像素偏移文件
 TP_RAW_DUALDEMOSAICAUTOCONTRAST;自动阈值
-TP_RAW_DUALDEMOSAICAUTOCONTRAST_TOOLTIP;如果勾选框被打勾（推荐如此做），RawTherapee会根据图片中的平缓区域自动计算一个最优值。\n如果图像中没有平缓的区域，或是图片噪点太多，该数值会被设为0\n若想手动调整此数值，首先要将勾选框取消勾选（合适的值取决于具体图像的情况）
+TP_RAW_DUALDEMOSAICAUTOCONTRAST_TOOLTIP;如果勾选框被打勾（推荐如此做），RawTherapee会根据图像中的平缓区域自动计算一个最优值。\n如果图像中没有平缓的区域，或是图像噪点太多，该数值会被设为0\n若想手动调整此数值，首先要将勾选框取消勾选（合适的值取决于具体图像的情况）
 TP_RAW_DUALDEMOSAICCONTRAST;反差阈值
 TP_RAW_EAHD;EAHD
 TP_RAW_FALSECOLOR;伪色抑制步长
@@ -1603,8 +1604,8 @@ TP_RAW_PIXELSHIFT;像素偏移
 TP_RAW_PIXELSHIFTBLUR;动体蒙版模糊
 TP_RAW_PIXELSHIFTDMETHOD;动体区域的去马赛克算法
 TP_RAW_PIXELSHIFTEPERISO;敏感度
-TP_RAW_PIXELSHIFTEPERISO_TOOLTIP;默认值0在原生ISO下应该具有不错的效果。\n更大的数值会增强动体检测的敏感度。\n以微小的步长调整此值，同时观察动体蒙版的变化。\n对于欠曝/高ISO的照片，应提高此值
-TP_RAW_PIXELSHIFTEQUALBRIGHT;将不同照片的亮度均等化
+TP_RAW_PIXELSHIFTEPERISO_TOOLTIP;默认值0在原生ISO下应该具有不错的效果。\n更大的数值会增强动体检测的敏感度。\n以微小的步长调整此值，同时观察动体蒙版的变化。\n对于欠曝/高ISO的图像，应提高此值
+TP_RAW_PIXELSHIFTEQUALBRIGHT;将不同图像的亮度均等化
 TP_RAW_PIXELSHIFTEQUALBRIGHTCHANNEL;将各个通道分别均等化
 TP_RAW_PIXELSHIFTEQUALBRIGHTCHANNEL_TOOLTIP;启用：对RGB通道分别进行均等化。\n禁用：使用同一个均等化系数对所有通道进行均等化
 TP_RAW_PIXELSHIFTEQUALBRIGHT_TOOLTIP;以当前被选中的一帧图像为基准，均等化各帧图像的亮度。\n如果各帧中有过曝的区域，应选择最亮的一帧以避免过曝区域出现紫色，也可启用动体补正来解决该问题
@@ -1612,7 +1613,7 @@ TP_RAW_PIXELSHIFTGREEN;检查绿色通道以检测动体
 TP_RAW_PIXELSHIFTHOLEFILL;填补动体蒙版的洞
 TP_RAW_PIXELSHIFTHOLEFILL_TOOLTIP;填补动体蒙版中间所存在的洞
 TP_RAW_PIXELSHIFTMEDIAN;对动体区域使用中值
-TP_RAW_PIXELSHIFTMEDIAN_TOOLTIP;对于运动的部分，使用所有图片的中值，而不是用户选择的某一帧图片。\n移除在所有图片中位置都不同的物体。\n在移动慢（重叠）的物体上会产生动体效果
+TP_RAW_PIXELSHIFTMEDIAN_TOOLTIP;对于运动的部分，使用所有图像的中值，而不是用户选择的某一帧图像。\n移除在所有图像中位置都不同的物体。\n在移动慢（重叠）的物体上会产生动体效果
 TP_RAW_PIXELSHIFTMM_AUTO;自动
 TP_RAW_PIXELSHIFTMM_CUSTOM;自定义
 TP_RAW_PIXELSHIFTMM_OFF;关闭
@@ -1620,10 +1621,10 @@ TP_RAW_PIXELSHIFTMOTIONMETHOD;动体补正
 TP_RAW_PIXELSHIFTNONGREENCROSS;检查红/蓝色通道以检测动体
 TP_RAW_PIXELSHIFTSHOWMOTION;显示动体蒙版
 TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY;仅显示动体蒙版
-TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY_TOOLTIP;显示没有照片的动体蒙版
+TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY_TOOLTIP;显示没有图像的动体蒙版
 TP_RAW_PIXELSHIFTSHOWMOTION_TOOLTIP;在图像上用绿色蒙版显示动体区域
 TP_RAW_PIXELSHIFTSIGMA;模糊半径
-TP_RAW_PIXELSHIFTSIGMA_TOOLTIP;默认半径值1.0一般对于原生ISO来说足够好。\n对于高ISO照片，提高此值，5.0是不错的起始点。\n在改变此值的同时关注动体蒙版
+TP_RAW_PIXELSHIFTSIGMA_TOOLTIP;默认半径值1.0一般对于原生ISO来说足够好。\n对于高ISO图像，提高此值，5.0是不错的起始点。\n在改变此值的同时关注动体蒙版
 TP_RAW_PIXELSHIFTSMOOTH;顺滑过渡
 TP_RAW_PIXELSHIFTSMOOTH_TOOLTIP;让存在动体的区域与没有动体之间的区域之间顺滑地过渡。\n将此值设置为0以禁用顺滑过渡\n将此值设置为1以使用AMaZE/LMMSE算法（这取决于你是否选择了“使用LMMSE”）所解出的你所选择的那一帧图像，如果你选择了“使用中值”，那么就会根据通过所有图像计算出的中值解出图像
 TP_RAW_RCD;RCD
@@ -1823,10 +1824,10 @@ TP_WAVELET_SUPE;额外级
 TP_WAVELET_THR;阴影阈值
 TP_WAVELET_THRH;高光阈值
 TP_WAVELET_TILESBIG;大切片
-TP_WAVELET_TILESFULL;整张图片
+TP_WAVELET_TILESFULL;整张图像
 TP_WAVELET_TILESIZE;切片缓存方法
 TP_WAVELET_TILESLIT;小切片
-TP_WAVELET_TILES_TOOLTIP;处理整张图片可以让图像质量更好，所以推荐使用该选项，切片缓存是给小内存用户的备用方法。阅读RawPedia的文章以了解具体的内存需求
+TP_WAVELET_TILES_TOOLTIP;处理整张图像可以让图像质量更好，所以推荐使用该选项，切片缓存是给小内存用户的备用方法。阅读RawPedia的文章以了解具体的内存需求
 TP_WAVELET_TON;调色
 TP_WBALANCE_AUTO;自动
 TP_WBALANCE_CAMERA;相机
@@ -1871,7 +1872,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !FILEBROWSER_POPUPINSPECT;Inspect
 !GENERAL_DELETE_ALL;Delete all
 !GENERAL_EDIT;Edit
-!GENERAL_SAVE_AS;Save as...
+GENERAL_SAVE_AS;别存为...
 !HISTOGRAM_TOOLTIP_CROSSHAIR;Show/Hide indicator crosshair.
 !HISTOGRAM_TOOLTIP_SHOW_OPTIONS;Toggle visibility of the scope option buttons.
 !HISTOGRAM_TOOLTIP_TRACE_BRIGHTNESS;Adjust scope brightness.
@@ -1958,9 +1959,9 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !HISTORY_MSG_390;W - Residual - CB green low
 !HISTORY_MSG_391;W - Residual - CB blue low
 !HISTORY_MSG_392;W - Residual - Color balance
-!HISTORY_MSG_393;DCP - Look table
-!HISTORY_MSG_394;DCP - Baseline exposure
-!HISTORY_MSG_395;DCP - Base table
+HISTORY_MSG_393;DCP - 查找表
+HISTORY_MSG_394;DCP - 基线
+HISTORY_MSG_395;DCP - 基本表
 !HISTORY_MSG_396;W - Contrast sub-tool
 !HISTORY_MSG_397;W - Chroma sub-tool
 !HISTORY_MSG_398;W - ES sub-tool
@@ -2699,7 +2700,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !HISTORY_MSG_ICM_WORKING_PRIM_METHOD;Primaries method
 !HISTORY_MSG_ICM_WORKING_SLOPE;TRC - Slope
 !HISTORY_MSG_ICM_WORKING_TRC_METHOD;TRC method
-!HISTORY_MSG_ILLUM;Illuminant
+HISTORY_MSG_ILLUM;光源
 !HISTORY_MSG_PERSP_CAM_ANGLE;Perspective - Camera
 !HISTORY_MSG_PERSP_CAM_FL;Perspective - Camera
 !HISTORY_MSG_PERSP_CAM_SHIFT;Perspective - Camera
@@ -2763,11 +2764,11 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !HISTORY_MSG_WAVTHREND;Threshold local contrast
 !HISTORY_MSG_WAVUSHAMET;Clarity method
 !ICCPROFCREATOR_COPYRIGHT_RESET_TOOLTIP;Reset to the default copyright, granted to "RawTherapee, CC0"
-!ICCPROFCREATOR_DESCRIPTION_ADDPARAM;Append gamma and slope values to the description
+ICCPROFCREATOR_DESCRIPTION_ADDPARAM;将gamma和斜率值附加到描述中
 !ICCPROFCREATOR_DESCRIPTION_TOOLTIP;Leave empty to set the default description.
 !ICCPROFCREATOR_GAMMA;Gamma
-!ICCPROFCREATOR_ICCVERSION;ICC version:
-!ICCPROFCREATOR_ILL;Illuminant:
+ICCPROFCREATOR_ICCVERSION;ICC 版本:
+ICCPROFCREATOR_ILL;光源:
 !ICCPROFCREATOR_ILL_41;D41
 !ICCPROFCREATOR_ILL_50;D50
 !ICCPROFCREATOR_ILL_55;D55
@@ -2778,29 +2779,29 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !ICCPROFCREATOR_ILL_DEF;Default
 !ICCPROFCREATOR_ILL_INC;StdA 2856K
 !ICCPROFCREATOR_ILL_TOOLTIP;You can set the illuminant for ICC v4 profiles and also for ICC v2 profiles.
-!ICCPROFCREATOR_PRIMARIES;Primaries:
+ICCPROFCREATOR_PRIMARIES;工作空间:
 !ICCPROFCREATOR_PRIM_ACESP0;ACES AP0
 !ICCPROFCREATOR_PRIM_ACESP1;ACES AP1
 !ICCPROFCREATOR_PRIM_ADOBE;Adobe RGB (1998)
 !ICCPROFCREATOR_PRIM_BEST;BestRGB
 !ICCPROFCREATOR_PRIM_BETA;BetaRGB
-!ICCPROFCREATOR_PRIM_BLUX;Blue X
-!ICCPROFCREATOR_PRIM_BLUY;Blue Y
+ICCPROFCREATOR_PRIM_BLUX;蓝 X
+ICCPROFCREATOR_PRIM_BLUY;蓝 Y
 !ICCPROFCREATOR_PRIM_BRUCE;BruceRGB
 !ICCPROFCREATOR_PRIM_DCIP3;DCI-P3
-!ICCPROFCREATOR_PRIM_GREX;Green X
-!ICCPROFCREATOR_PRIM_GREY;Green Y
+ICCPROFCREATOR_PRIM_GREX;绿 X
+ICCPROFCREATOR_PRIM_GREY;绿 Y
 !ICCPROFCREATOR_PRIM_PROPH;Prophoto
 !ICCPROFCREATOR_PRIM_REC2020;Rec2020
-!ICCPROFCREATOR_PRIM_REDX;Red X
-!ICCPROFCREATOR_PRIM_REDY;Red Y
+ICCPROFCREATOR_PRIM_REDX;红 X
+ICCPROFCREATOR_PRIM_REDY;红 Y
 !ICCPROFCREATOR_PRIM_SRGB;sRGB
-!ICCPROFCREATOR_PRIM_TOOLTIP;You can set custom primaries for ICC v4 profiles and also for ICC v2 profiles.
+ICCPROFCREATOR_PRIM_TOOLTIP;您可以为ICC v4配置文件和ICC v2配置文件设置自定义主键。
 !ICCPROFCREATOR_PRIM_WIDEG;Widegamut
 !ICCPROFCREATOR_PROF_V2;ICC v2
 !ICCPROFCREATOR_PROF_V4;ICC v4
-!ICCPROFCREATOR_SLOPE;Slope
-!ICCPROFCREATOR_TRC_PRESET;Tone response curve
+ICCPROFCREATOR_SLOPE;斜率
+ICCPROFCREATOR_TRC_PRESET;响应曲线
 !INSPECTOR_WINDOW_TITLE;Inspector
 !IPTCPANEL_CATEGORYHINT;Identifies the subject of the image in the opinion of the provider.
 !IPTCPANEL_CITYHINT;Enter the name of the city pictured in this image.
@@ -2827,7 +2828,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !IPTCPANEL_TITLEHINT;Enter a short verbal and human readable name for the image, this may be the file name.
 !IPTCPANEL_TRANSREFERENCE;Job ID
 !IPTCPANEL_TRANSREFERENCEHINT;Enter a number or identifier needed for workflow control or tracking.
-!MAIN_BUTTON_ICCPROFCREATOR;ICC Profile Creator
+MAIN_BUTTON_ICCPROFCREATOR;创建ICC配置文件
 !MAIN_BUTTON_NAVNEXT_TOOLTIP;Navigate to the next image relative to image opened in the Editor.\nShortcut: <b>Shift-F4</b>\n\nTo navigate to the next image relative to the currently selected thumbnail in the File Browser or Filmstrip:\nShortcut: <b>F4</b>
 !MAIN_BUTTON_NAVPREV_TOOLTIP;Navigate to the previous image relative to image opened in the Editor.\nShortcut: <b>Shift-F3</b>\n\nTo navigate to the previous image relative to the currently selected thumbnail in the File Browser or Filmstrip:\nShortcut: <b>F3</b>
 !MAIN_BUTTON_NAVSYNC_TOOLTIP;Synchronize the File Browser or Filmstrip with the Editor to reveal the thumbnail of the currently opened image, and clear any active filters.\nShortcut: <b>x</b>\n\nAs above, but without clearing active filters:\nShortcut: <b>y</b>\n(Note that the thumbnail of the opened image will not be shown if filtered out).
@@ -2848,9 +2849,9 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !PREFERENCES_COMPLEXITY_EXP;Advanced
 !PREFERENCES_COMPLEXITY_NORM;Standard
 !PREFERENCES_COMPLEXITY_SIMP;Basic
-!PREFERENCES_CUSTPROFBUILD;Custom Processing Profile Builder
+PREFERENCES_CUSTPROFBUILD;自定义处理配置文件生成器
 !PREFERENCES_CUSTPROFBUILDHINT;Executable (or script) file called when a new initial processing profile should be generated for an image.\n\nThe path of the communication file (*.ini style, a.k.a. "Keyfile") is added as a command line parameter. It contains various parameters required for the scripts and image Exif to allow a rules-based processing profile generation.\n\n<b>WARNING:</b> You are responsible for using double quotes where necessary if you're using paths containing spaces.
-!PREFERENCES_CUSTPROFBUILDKEYFORMAT;Keys format
+PREFERENCES_CUSTPROFBUILDKEYFORMAT;Keys 格式
 !PREFERENCES_CUSTPROFBUILDKEYFORMAT_NAME;Name
 !PREFERENCES_CUSTPROFBUILDKEYFORMAT_TID;TagID
 !PREFERENCES_EXTEDITOR_BYPASS_OUTPUT_PROFILE;Bypass output profile
@@ -2885,8 +2886,8 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !THRESHOLDSELECTOR_T;Top
 !THRESHOLDSELECTOR_TL;Top-left
 !THRESHOLDSELECTOR_TR;Top-right
-!TOOLBAR_TOOLTIP_COLORPICKER;Lockable Color Picker\n\nWhen the tool is active:\n- Add a picker: <b>left-click</b>.\n- Drag a picker: <b>left-click and drag</b>.\n- Delete a picker: <b>right-click</b>.\n- Delete all pickers: <b>Ctrl</b>+<b>Shift</b>+<b>right-click</b>.\n- Revert to hand tool: <b>right-click</b> outside any picker.
-!TOOLBAR_TOOLTIP_PERSPECTIVE;<b>Perspective Correction</b>\n\nEdit control lines to correct perspective distortion. Click this button again to apply correction.
+TOOLBAR_TOOLTIP_COLORPICKER;可锁定颜色选择器\n\n工具激活时:\n- 添加选择器: <b>left-click</b>.\n- 拖动选取器: <b>left-click and drag</b>.\n- 删除选取器: <b>right-click</b>.\n- 删除所有选取器: <b>Ctrl</b>+<b>Shift</b>+<b>right-click</b>.\n- 恢复为手动工具: <b>right-click</b> 在任何选择器之外.
+TOOLBAR_TOOLTIP_PERSPECTIVE;<b>透视校正</b>\n\n编辑控制线以校正透视失真。再次单击此按钮以应用更正。
 !TP_BWMIX_ALGO;Algorithm OYCPM
 !TP_BWMIX_ALGO_TOOLTIP;Linear: will produce a normal <b>linear</b> response.\nSpecial effects: will produce special effects by mixing channels <b>non-linearly</b>.
 !TP_BWMIX_CC_ENABLED;Adjust complementary color
@@ -2911,7 +2912,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_COLORAPP_IL75;D75
 !TP_COLORAPP_ILA;Incandescent StdA 2856K
 !TP_COLORAPP_ILFREE;Free
-!TP_COLORAPP_ILLUM;Illuminant
+TP_COLORAPP_ILLUM;光源
 !TP_COLORAPP_ILLUM_TOOLTIP;Select the illuminant closest to the shooting conditions.\nIn general D50, but it can change depending on the time and latitude.
 !TP_COLORAPP_MOD02;CIECAM02
 !TP_COLORAPP_MOD16;CIECAM16
@@ -2955,16 +2956,16 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_FILMNEGATIVE_REF_PICK;Pick white balance spot
 !TP_FILMNEGATIVE_REF_TOOLTIP;Pick a gray patch for white-balancing the output, positive image.
 !TP_HLREC_HLBLUR;Blur
-!TP_ICM_APPLYBASELINEEXPOSUREOFFSET;Baseline exposure
-!TP_ICM_APPLYBASELINEEXPOSUREOFFSET_TOOLTIP;Employ the embedded DCP baseline exposure offset. The setting is only available if the selected DCP has one.
-!TP_ICM_APPLYHUESATMAP;Base table
-!TP_ICM_APPLYHUESATMAP_TOOLTIP;Employ the embedded DCP base table (HueSatMap). The setting is only available if the selected DCP has one.
-!TP_ICM_APPLYLOOKTABLE;Look table
-!TP_ICM_APPLYLOOKTABLE_TOOLTIP;Employ the embedded DCP look table. The setting is only available if the selected DCP has one.
+TP_ICM_APPLYBASELINEEXPOSUREOFFSET;基线
+TP_ICM_APPLYBASELINEEXPOSUREOFFSET_TOOLTIP;采用嵌入式DCP基线曝光偏移。该设置仅在所选DCP有一个DCP时可用。
+TP_ICM_APPLYHUESATMAP;基表
+TP_ICM_APPLYHUESATMAP_TOOLTIP;采用嵌入式DCP基表（HueSatMap）。该设置仅在所选DCP有一个DCP时可用。
+TP_ICM_APPLYLOOKTABLE;查找表
+TP_ICM_APPLYLOOKTABLE_TOOLTIP;采用嵌入式DCP查找表。该设置仅在所选DCP有一个DCP时可用。
 !TP_ICM_BLUFRAME;Blue Primaries
-!TP_ICM_BPC;Black Point Compensation
-!TP_ICM_DCPILLUMINANT;Illuminant
-!TP_ICM_DCPILLUMINANT_INTERPOLATED;Interpolated
+TP_ICM_BPC;黑点补偿
+TP_ICM_DCPILLUMINANT;光源
+TP_ICM_DCPILLUMINANT_INTERPOLATED;插值
 !TP_ICM_DCPILLUMINANT_TOOLTIP;Select which embedded DCP illuminant to employ. Default is "interpolated" which is a mix between the two based on white balance. The setting is only available if a dual-illuminant DCP with interpolation support is selected.
 !TP_ICM_FBW;Black-and-White
 !TP_ICM_GREFRAME;Green Primaries
@@ -2979,7 +2980,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_ICM_PRIMILLUM_TOOLTIP;You can change an image from its original mode (‘working profile’) to a different mode (‘destination primaries’). When you choose a different color mode for an image, you permanently change the color values in the image.\n\nChanging the ‘primaries’ is quite complex and difficult to use. It requires a lot of experimenting.\n It is capable of making exotic color adjustments as Channel Mixer primaries.\n Allows you to modify the camera calibration with Custom (sliders).
 !TP_ICM_PRIMRED_TOOLTIP;Primaries Red:\nsRGB x=0.64 y=0.33\nAdobe x=0.64 y=0.33\nWidegamut x=0.735 y=0.265\nRec2020 x=0.708 y=0.292\nACES P1 x=0.713 y= 0.293\nACES P0 x=0.7347 y=0.2653\nProphoto x=0.7347 y=0.2653\nBruceRGB x=0.64 y=0.33\nBeta RGB x=0.688 y=0.3112\nBestRGB x=0.7347 y=0.2653
 !TP_ICM_REDFRAME;Custom Primaries
-!TP_ICM_SAVEREFERENCE;Save Reference Image
+TP_ICM_SAVEREFERENCE;保存参考图像
 !TP_ICM_SAVEREFERENCE_APPLYWB_TOOLTIP;Generally, apply the white balance when saving images to create ICC profiles, and do not apply the white balance to create DCP profiles.
 !TP_ICM_SAVEREFERENCE_TOOLTIP;Save the linear TIFF image before the input profile is applied. The result can be used for calibration purposes and generation of a camera profile.
 !TP_ICM_TONECURVE_TOOLTIP;Employ the embedded DCP tone curve. The setting is only available if the selected DCP has a tone curve.
@@ -2987,7 +2988,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_ICM_TRCFRAME_TOOLTIP;Also known as ‘synthetic’ or ‘virtual’ profiles, which are applied at the end of the processing pipeline (prior to ciecam) allowing you to create custom image effects.\nYou can make changes to the:\n ‘Tone response curve’, which modifies the tones of the image.\n ‘Illuminant’ : which allows you to change the profile primaries to adapt them to the shooting conditions.\n ‘Destination primaries’: which allows you to change the destination primaries with two main uses - channel mixer and calibration.\nNote: Abstract profiles take into account the built-in Working profiles without modifying them. They do not work with custom Working profiles.
 !TP_ICM_TRC_TOOLTIP;Allows you to change the default sRGB ‘Tone response curve’ in RT (g=2.4 s=12.92).\nThis TRC modifies the tones of the image. The RGB and Lab values, histogram and output (screen, TIF, JPG) are changed:\n-Gamma acts mainly on light tones -Slope acts mainly on dark tones.\nYou can choose any pair of 'gamma and slope' (values >1) and the algorithm will ensure that there is continuity between the linear and parabolic parts of the curve.\nA selection other than 'none' activates the 'Illuminant' and 'Destination primaries' menus.
 !TP_ICM_WORKING_CIEDIAG;CIE xy diagram
-!TP_ICM_WORKING_ILLU;Illuminant
+TP_ICM_WORKING_ILLU;光源
 !TP_ICM_WORKING_ILLU_1500;Tungsten 1500K
 !TP_ICM_WORKING_ILLU_2000;Tungsten 2000K
 !TP_ICM_WORKING_ILLU_D41;D41
@@ -3015,14 +3016,14 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_ICM_WORKING_PRIM_REC;Rec2020
 !TP_ICM_WORKING_PRIM_SRGB;sRGB
 !TP_ICM_WORKING_PRIM_WID;WideGamut
-!TP_ICM_WORKING_TRC;Tone response curve:
+TP_ICM_WORKING_TRC;响应曲线:
 !TP_ICM_WORKING_TRC_18;Prophoto g=1.8
 !TP_ICM_WORKING_TRC_22;Adobe g=2.2
 !TP_ICM_WORKING_TRC_BT709;BT709 g=2.22 s=4.5
 !TP_ICM_WORKING_TRC_GAMMA;Gamma
 !TP_ICM_WORKING_TRC_LIN;Linear g=1
 !TP_ICM_WORKING_TRC_NONE;None
-!TP_ICM_WORKING_TRC_SLOPE;Slope
+TP_ICM_WORKING_TRC_SLOPE;斜率
 !TP_ICM_WORKING_TRC_SRGB;sRGB g=2.4 s=12.92
 !TP_ICM_WORKING_TRC_TOOLTIP;Only for built-in profiles.
 !TP_LABCURVE_CURVEEDITOR_A_RANGE1;Green Saturated
@@ -3758,7 +3759,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_LOCALLAB_STD;Standard
 !TP_LOCALLAB_STR;Strength
 !TP_LOCALLAB_STRBL;Strength
-!TP_LOCALLAB_STREN;Compression strength
+TP_LOCALLAB_STREN;压缩强度
 !TP_LOCALLAB_STRENG;Strength
 !TP_LOCALLAB_STRENGR;Strength
 !TP_LOCALLAB_STRENGRID_TOOLTIP;You can adjust the desired effect with "strength", but you can also use the "scope" function which allows you to delimit the action (e.g. to isolate a particular color).
@@ -3911,7 +3912,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_RAW_PIXELSHIFTAVERAGE_TOOLTIP;Use average of all frames instead of selected frame for regions with motion.\nGives motion effect on slow moving (overlapping) objects.
 !TP_RAW_RCDBILINEAR;RCD+Bilinear
 !TP_RAW_SENSOR_XTRANS_DMETHOD_TOOLTIP;3-pass gives best results (recommended for low ISO images).\n1-pass is almost undistinguishable from 3-pass for high ISO images and is faster.\n+fast gives less artifacts in flat areas
-!TP_RAW_SENSOR_XTRANS_LABEL;Sensor with X-Trans Matrix
+TP_RAW_SENSOR_XTRANS_LABEL;带 X-Trans 矩阵的传感器
 !TP_RAW_XTRANS;X-Trans
 !TP_RAW_XTRANSFAST;Fast X-Trans
 !TP_RESIZE_LE;Long Edge:
@@ -3949,7 +3950,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_RETINEX_ITER;Iterations (Tone-mapping)
 !TP_RETINEX_ITERF;Tone mapping
 !TP_RETINEX_ITER_TOOLTIP;Simulate a tone-mapping operator.\nHigh values increase the processing time.
-!TP_RETINEX_LABEL;Retinex
+TP_RETINEX_LABEL;视网膜
 !TP_RETINEX_LABEL_MASK;Mask
 !TP_RETINEX_LABSPACE;L*a*b*
 !TP_RETINEX_LOW;Low
@@ -3997,26 +3998,26 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_SPOT_HINT;Click on this button to be able to operate on the preview area.\n\nTo edit a spot, hover the white mark locating an edited area, making the editing geometry appear.\n\nTo add a spot, press Ctrl and left mouse button, drag the circle (Ctrl key can be released) to a source location, then release the mouse button.\n\nTo move the source or destination spot, hover its center then drag it.\n\nThe inner circle (maximum effect area) and the "feather" circle can be resized by hovering them (the circle becomes orange) and dragging it (the circle becomes red).\n\nWhen the changes are done, right click outside any spot to end the Spot editing mode, or click on this button again.
 !TP_SPOT_LABEL;Spot Removal
 !TP_VIBRANCE_CURVEEDITOR_SKINTONES;HH
-!TP_VIBRANCE_CURVEEDITOR_SKINTONES_LABEL;Skin-tones
+TP_VIBRANCE_CURVEEDITOR_SKINTONES_LABEL;肤色
 !TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE1;Red/Purple
 !TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2;Red
 !TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE3;Red/Yellow
 !TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4;Yellow
-!TP_VIBRANCE_LABEL;Vibrance
-!TP_VIBRANCE_PASTELS;Pastel tones
-!TP_VIBRANCE_PASTSATTOG;Link pastel and saturated tones
-!TP_VIBRANCE_PSTHRESHOLD;Pastel/saturated tones threshold
-!TP_VIBRANCE_PSTHRESHOLD_SATTHRESH;Saturation threshold
-!TP_VIBRANCE_PSTHRESHOLD_TOOLTIP;The vertical axis represents pastel tones at the bottom and saturated tones at the top.\nThe horizontal axis represents the saturation range.
-!TP_VIBRANCE_PSTHRESHOLD_WEIGTHING;Pastel/saturated transition's weighting
-!TP_VIBRANCE_SATURATED;Saturated Tones
+TP_VIBRANCE_LABEL;细节饱和度
+TP_VIBRANCE_PASTELS;柔和色调
+TP_VIBRANCE_PASTSATTOG;链接柔和和饱和色调
+TP_VIBRANCE_PSTHRESHOLD;柔和/饱和色调阈值
+TP_VIBRANCE_PSTHRESHOLD_SATTHRESH;饱和度阈值
+TP_VIBRANCE_PSTHRESHOLD_TOOLTIP;纵轴表示底部的柔和色调和顶部的饱和色调。\横轴表示饱和范围。
+TP_VIBRANCE_PSTHRESHOLD_WEIGTHING;柔和/饱和过渡的权重
+TP_VIBRANCE_SATURATED;饱和色调
 !TP_WAVELET_BALCHROM;Equalizer Color
 !TP_WAVELET_BALLUM;Denoise equalizer  White-Black
 !TP_WAVELET_BL;Blur levels
 !TP_WAVELET_BLCURVE;Blur by levels
 !TP_WAVELET_BLURFRAME;Blur
 !TP_WAVELET_BLUWAV;Attenuation response
-!TP_WAVELET_CBENAB;Toning and Color balance
+TP_WAVELET_CBENAB;色调和色彩平衡
 !TP_WAVELET_CB_TOOLTIP;With high values you can create special effects, similar to those achieved with the Chroma Module, but focused on the residual image\nWith moderate values you can manually correct the white balance
 !TP_WAVELET_CHROFRAME;Denoise chrominance
 !TP_WAVELET_CHROMAFRAME;Chroma
@@ -4027,14 +4028,14 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_WAVELET_CHR_TOOLTIP;Adjusts chroma as a function of "contrast levels" and "chroma-contrast link strength"
 !TP_WAVELET_CLA;Clarity
 !TP_WAVELET_CLARI;Sharp-mask and Clarity
-!TP_WAVELET_COLORT;Opacity red-green
+TP_WAVELET_COLORT;不透明度 红-绿
 !TP_WAVELET_COMPEXPERT;Advanced
-!TP_WAVELET_COMPGAMMA;Compression gamma
+TP_WAVELET_COMPGAMMA;压缩伽马
 !TP_WAVELET_COMPGAMMA_TOOLTIP;Adjusting the gamma of the residual image allows you to equilibrate the data and histogram.
 !TP_WAVELET_COMPLEXLAB;Complexity
 !TP_WAVELET_COMPLEX_TOOLTIP;Standard: shows a reduced set of tools suitable for most processing operations.\nAdvanced: shows the complete set of tools for advanced processing operations
 !TP_WAVELET_COMPNORMAL;Standard
-!TP_WAVELET_CONTEDIT;'After' contrast curve
+TP_WAVELET_CONTEDIT;'修改后' 对比曲线
 !TP_WAVELET_CONTFRAME;Contrast - Compression
 !TP_WAVELET_CONTRASTEDIT;Finer - Coarser levels
 !TP_WAVELET_CURVEEDITOR_BL_TOOLTIP;Disabled if zoom > about 300%
@@ -4083,8 +4084,8 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_WAVELET_EDGESENSI;Edge sensitivity
 !TP_WAVELET_EDGREINF_TOOLTIP;Reinforce or reduce the action of the first level, do the opposite to the second level, and leave the rest unchanged.
 !TP_WAVELET_EDRAD_TOOLTIP;This adjustment controls the local enhancement. A value of zero still has an effect
-!TP_WAVELET_FINAL;Final Touchup
-!TP_WAVELET_FINCFRAME;Final local contrast
+TP_WAVELET_FINAL;最终修补
+TP_WAVELET_FINCFRAME;最终局部对比度
 !TP_WAVELET_FINCOAR_TOOLTIP;The left (positive) part of the curve acts on the finer levels (increase).\nThe 2 points on the abscissa represent the respective action limits of finer and coarser levels 5 and 6 (default).\nThe right (negative) part of the curve acts on the coarser levels (increase).\nAvoid moving the left part of the curve with negative values. Avoid moving the right part of the curve with positives values
 !TP_WAVELET_FINTHR_TOOLTIP;Uses local contrast to reduce or increase the action of the guided filter
 !TP_WAVELET_GUIDFRAME;Final smoothing (guided filter)
@@ -4100,7 +4101,7 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_WAVELET_LEVFOUR;Level 5-6 denoise and guided threshold
 !TP_WAVELET_LIMDEN;Interaction levels 5-6 on levels 1-4
 !TP_WAVELET_LIPST;Enhanced algoritm
-!TP_WAVELET_LOWLIGHT;Coarser levels luminance range
+TP_WAVELET_LOWLIGHT;阴影亮度范围
 !TP_WAVELET_LOWTHR_TOOLTIP;Prevents amplification of fine textures and noise
 !TP_WAVELET_MEDILEV_TOOLTIP;When you enable Edge Detection, it is recommanded:\n- to disabled low contrast levels to avoid artifacts,\n- to use high values of gradient sensitivity.\n\nYou can modulate the strength with 'refine' from Denoise and Refine.
 !TP_WAVELET_MERGEC;Merge chroma
@@ -4115,8 +4116,8 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_WAVELET_NPTYPE_TOOLTIP;This algorithm uses the proximity of a pixel and eight of its neighbors. If less difference, edges are reinforced.
 !TP_WAVELET_OFFSET_TOOLTIP;Offset modifies the balance between low contrast and high contrast details.\nHigh values will amplify contrast changes to the higher contrast details, whereas low values will amplify contrast changes to low contrast details.\nBy using a low Attenuation response value you can select which contrast values will be enhanced.
 !TP_WAVELET_OLDSH;Algorithm using negatives values
-!TP_WAVELET_OPACITY;Opacity blue-yellow
-!TP_WAVELET_OPACITYWL;Local contrast
+TP_WAVELET_OPACITY;不透明度 蓝-黄
+TP_WAVELET_OPACITYWL;最终局部对比度
 !TP_WAVELET_OPACITYWL_TOOLTIP;Modify the final local contrast at the end of the wavelet treatment.\n\nThe left side represents the smallest local contrast, progressing to the largest local contrast on the right.
 !TP_WAVELET_PASTEL;Pastel chroma
 !TP_WAVELET_PROTAB;Protection
@@ -4140,16 +4141,16 @@ ZOOMPANEL_ZOOMOUT;缩放拉远\n快捷键：<b>-</b>
 !TP_WAVELET_STREND;Strength
 !TP_WAVELET_THRDEN_TOOLTIP;Generates a stepped curve used to guide the noise reduction as a function of local contrast. The denoise will be applied to uniform low local-contrast areas. Areas with detail (higher local contrast) will be preserved.
 !TP_WAVELET_THREND;Local contrast threshold
-!TP_WAVELET_THRESHOLD;Finer levels
-!TP_WAVELET_THRESHOLD2;Coarser levels
+TP_WAVELET_THRESHOLD;突出显示级别
+TP_WAVELET_THRESHOLD2;阴影级别
 !TP_WAVELET_THRESHOLD2_TOOLTIP;Only levels from the chosen value to the selected number of ‘wavelet levels’ will be affected by the Shadow luminance range.
 !TP_WAVELET_THRESHOLD_TOOLTIP;Only levels below and including the chosen value will be affected by the Highlight luminance range.
 !TP_WAVELET_THRESWAV;Balance threshold
 !TP_WAVELET_TMEDGS;Edge stopping
 !TP_WAVELET_TMSCALE;Scale
-!TP_WAVELET_TMSTRENGTH;Compression strength
+TP_WAVELET_TMSTRENGTH;压缩强度
 !TP_WAVELET_TMSTRENGTH_TOOLTIP;Control the strength of tone mapping or contrast compression of the residual image.
-!TP_WAVELET_TMTYPE;Compression method
+TP_WAVELET_TMTYPE;压缩栽植
 !TP_WAVELET_TONFRAME;Excluded colors
 !TP_WAVELET_USH;None
 !TP_WAVELET_USHARP;Clarity method
